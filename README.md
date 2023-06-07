@@ -1,52 +1,46 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
 
+> Lending Club Case Study by Nishadh Shrestha
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
+- [General Info](#general-information)
+- [Technologies Used](#technologies-used)
+- [Conclusions](#conclusions)
+- [Acknowledgements](#acknowledgements)
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Lending Club is a financial services company that offer peer-to-peer lending services. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile.
+- In this case study we analyse the data that contains historical information about loan applicants from lending club and look closely at whether they defaulted or not.
+- The aim is to study features in the data set identify patterns which indicate if a person is likely to default. These finding may then be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+The driving factors behind loan default include the following variables:
 
+1. Borrower has low salary
+2. Loan amount is high
+3. Interest rate is high
+4. 60 months term instead of 30 months term
+5. Lower Grade loans
+6. Loan type of Small Business
+7. Borrower has been bankrupt before
+8. Higher dti
+
+One of more combination of above conditions strongly indicate that the loan will default.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- numpy 1.23.5
+- pandas 1.5.3
+- seaborn 0.12.2
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
+- Learning from EDA course by [S Anand](https://www.linkedin.com/in/sanand0)
+- Valuable suggestations in a lecture from [Aditya Bhattacharya](https://www.linkedin.com/in/aditya-bhattacharya-b59155b6)
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
 
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@nishadh] - feel free to contact me!
